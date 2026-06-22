@@ -6,7 +6,8 @@ Built entirely on **free-tier APIs** with zero credit card required.
 
 ---
 
-## Live Demo : https://rag-eval-dashboard-1.streamlit.app/ 
+## Live Demo 
+https://rag-eval-dashboard-1.streamlit.app/ 
 
 
 > Upload your PDFs → Ask questions → Evaluate quality scores
