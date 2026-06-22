@@ -1,0 +1,30 @@
+# ── Web framework ──────────────────────────────────────────
+streamlit==1.35.0
+
+# ── LlamaIndex (RAG pipeline) ─────────────────────────────
+llama-index-core==0.14.22
+llama-index-llms-openai-like==0.7.2
+llama-index-embeddings-huggingface==0.7.0
+llama-index-vector-stores-chroma==0.5.5
+
+# ── Vector store ───────────────────────────────────────────
+chromadb==1.5.9
+
+# ── Embeddings (local, no API needed) ─────────────────────
+sentence-transformers==5.6.0
+
+# ── Groq (LLM for RAG + evaluation) ───────────────────────
+# Used directly via the groq SDK — no langchain wrapper needed
+groq==1.4.0
+
+# ── Data + visualization ───────────────────────────────────
+datasets==2.20.0
+pandas==2.2.2
+plotly==5.22.0
+
+# ── Utilities ─────────────────────────────────────────────
+python-dotenv==1.0.1
+
+# ── Document parsers ──────────────────────────────────────
+pypdf==4.3.1
+docx2txt==0.8
